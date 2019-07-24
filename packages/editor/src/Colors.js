@@ -4,7 +4,7 @@ import Color from 'color'
 
 import Section from './Section'
 import ColorPicker from './ColorPicker'
-import { flattenObject } from '../utils'
+import { flattenObject } from './flattenObject'
 
 const toHex = raw => {
   try {

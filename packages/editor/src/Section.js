@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 
-const Section = ({ children, heading }) => {
+export const Section = ({ children, heading }) => {
   return (
     <section
       sx={{ mb: 4, pb: 4, borderBottom: '1px solid', borderColor: 'muted' }}

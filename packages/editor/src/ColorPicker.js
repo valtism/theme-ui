@@ -4,7 +4,7 @@ import { jsx } from 'theme-ui'
 import { ChromePicker } from 'react-color'
 import { useOnClickOutside } from '../hooks'
 
-const ColorPicker = ({ label, ...props }) => {
+export const ColorPicker = ({ label, ...props }) => {
   const ref = useRef()
   const [isEditing, setIsEditing] = useState(false)
 

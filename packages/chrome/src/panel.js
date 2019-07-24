@@ -1,6 +1,12 @@
 /** @jsx jsx */
 import { useEffect } from 'react'
 import { jsx, useColorMode } from 'theme-ui'
+import {
+  Colors,
+  Modes,
+  Typography,
+  CopyThemeToClipboard,
+} from '@theme-ui/editor'
 
 import Colors from './Colors'
 import Modes from './Modes'

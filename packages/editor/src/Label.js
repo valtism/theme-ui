@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 
-const Label = props => (
+export const Label = props => (
   <label
     {...props}
     sx={{

@@ -1,12 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Editor } from '@theme-ui/editor'
+import App from './App'
 
-const Chrome = () => {
-  const panelColorMode =
-    window.chrome.devtools.panels.themeName === 'dark' ? 'dark' : 'light'
+const panelColorMode =
+  window.chrome.devtools.panels.themeName === 'dark' ? 'dark' : 'light'
 
-  return <Editor panelColorMode={panelColorMode} />
-}
-
-render(<Chrome />, document.getElementById('root'))
+render(<App panelColorMode={panelColorMode} />, document.getElementById('root'))
