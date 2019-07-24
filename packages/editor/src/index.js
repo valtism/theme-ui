@@ -1,6 +1,7 @@
 // context-based
 export { Editor } from './Editor'
 export { ColorPalette } from './ColorPalette'
+export { Type } from './Type'
 
 // chrome extension
 export { Button } from './Button'
