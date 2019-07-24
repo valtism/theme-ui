@@ -14,7 +14,7 @@ const toHex = raw => {
   }
 }
 
-const Colors = ({ theme, setTheme }) => {
+export const Colors = ({ theme, setTheme }) => {
   const colors = flattenObject(theme.colors)
   return (
     <Section heading="Colors">

@@ -1,3 +1,8 @@
+// context-based
+export { Editor } from './Editor'
+export { ColorPalette } from './ColorPalette'
+
+// chrome extension
 export { Button } from './Button'
 export { ColorPicker } from './ColorPicker'
 export { Colors } from './Colors'

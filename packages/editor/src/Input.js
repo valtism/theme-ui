@@ -1,11 +1,12 @@
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui'
 import Label from './Label'
-import { makeHtmlSafeLabel } from '../utils'
+import { toSafeString } from './toSafeString'
 
 export const Input = ({ label, ...props }) => {
   const [colorMode] = useColorMode()
-  const id = makeHtmlSafeLabel(label)
+  const id = toSafeString(label)
+
   return (
     <div sx={{ my: 3 }}>
       <Label htmlFor={id}>{label}</Label>

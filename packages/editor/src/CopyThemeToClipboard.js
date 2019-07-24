@@ -5,7 +5,7 @@ import copyToClipboard from 'copy-to-clipboard'
 
 import Button from './Button'
 
-const CopyThemeToClipboard = ({ theme }) => {
+export const CopyThemeToClipboard = ({ theme }) => {
   const [copied, setCopied] = useState(false)
   const timer = useRef(false)
 

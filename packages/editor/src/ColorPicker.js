@@ -2,7 +2,7 @@
 import { useState, useRef } from 'react'
 import { jsx } from 'theme-ui'
 import { ChromePicker } from 'react-color'
-import { useOnClickOutside } from '../hooks'
+import { useOnClickOutside } from './hooks'
 
 export const ColorPicker = ({ label, ...props }) => {
   const ref = useRef()
@@ -19,11 +19,11 @@ export const ColorPicker = ({ label, ...props }) => {
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 1,
-      }}
-    >
+      }}>
       <span>{label}</span>
       <div sx={{ position: 'relative ' }}>
         <button
+          title="Edit color"
           onClick={() => setIsEditing(true)}
           sx={{
             appearance: 'none',

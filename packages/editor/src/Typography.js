@@ -28,7 +28,7 @@ const InputList = ({ name, values, onChange, type, ...props }) => {
   </React.Fragment>
 }
 
-const Typography = ({ theme, setTheme }) => {
+export const Typography = ({ theme, setTheme }) => {
   const { fonts = {}, fontSizes = [] } = theme
 
   return (
