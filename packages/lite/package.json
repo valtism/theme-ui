@@ -1,0 +1,30 @@
+{
+  "name": "@theme-ui/lite",
+  "version": "0.2.32",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "prepare": "microbundle --no-compress",
+    "watch": "microbundle watch --no-compress"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.15",
+    "@mdx-js/react": "^1.2.2",
+    "@styled-system/css": "^5.0.22",
+    "react": "^16.9.0"
+  },
+  "keywords": [
+    "theme-ui",
+    "emotion",
+    "mdx",
+    "css",
+    "styles",
+    "css-in-js"
+  ],
+  "author": "Brent Jackson <jxnblk@gmail.com>",
+  "repository": "system-ui/theme-ui",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
