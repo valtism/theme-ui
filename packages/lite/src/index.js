@@ -124,10 +124,6 @@ export const merge = (a = {}, b = {}) => {
   return result
 }
 
-const createColorStyles = theme => {
-  return {}
-}
-
 export const ColorMode = () => (
   <Global
     styles={theme => ({
