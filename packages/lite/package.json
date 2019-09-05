@@ -1,0 +1,14 @@
+{
+  "name": "@theme-ui/lite",
+  "version": "0.2.40",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "echo \"todo\""
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@mdx-js/react": "^1.4.3",
+    "@styled-system/css": "^5.0.23"
+  }
+}
