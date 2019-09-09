@@ -15,5 +15,12 @@
     "theme-ui"
   ],
   "repository": "system-ui/theme-ui",
-  "gitHead": "5681b24d36f81fddd0d1d82cbb85136cc15dcd4c"
+  "gitHead": "5681b24d36f81fddd0d1d82cbb85136cc15dcd4c",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/generator": "^7.6.0",
+    "@babel/template": "^7.6.0",
+    "@babel/types": "^7.6.1",
+    "@theme-ui/editor": "^0.2.41"
+  }
 }

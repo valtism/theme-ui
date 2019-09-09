@@ -1,0 +1,23 @@
+{
+  "initialColorMode": "light",
+  "colors": {
+    "text": "#eb7070",
+    "background": "#fff",
+    "primary": "#07c",
+    "modes": {
+      "dark": {
+        "text": "#fff",
+        "background": "#000",
+        "primary": "#0cf"
+      }
+    }
+  },
+  "fonts": {
+    "body": "system-ui, sans-serif"
+  },
+  "styles": {
+    "root": {
+      "fontFamily": "body"
+    }
+  }
+}
