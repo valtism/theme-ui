@@ -26,9 +26,12 @@ export default props => {
   const { theme } = useThemeUI()
   const [canSave, setCanSave] = useState(false)
   const [handle, setHandle] = useState(null)
+  const [url, setURL] = useState(null)
   useEffect(() => {
     const enabled = typeof window.chooseFileSystemEntries === 'function'
+    const { origin } = window.location
     setCanSave(enabled)
+    setURL(origin)
   }, [])
 
   useEffect(() => {
@@ -65,6 +68,13 @@ export default props => {
         </div>
       )}
       <ColorPalette />
+      {/*
+      <iframe
+        src={url}
+        width='768'
+        height='512'
+      />
+      */}
     </Editor>
   )
 }
