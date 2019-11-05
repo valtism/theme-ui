@@ -2,10 +2,15 @@
 import { jsx } from 'theme-ui'
 import Layout from './components/layout'
 
+const fullwidthPages = [
+  '/',
+  '/sandbox',
+]
+
 export const wrapPageElement = ({ element, props }) => (
   <Layout
     {...props}
-    fullwidth={props.location.pathname === '/'}
+    fullwidth={fullwidthPages.includes(props.location.pathname)}
     children={element}
   />
 )
